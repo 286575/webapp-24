@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soccer Player Trivia</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+    #hints {
+      margin: 20px;
+    }
+    .hint {
+      display: none;
+      margin: 10px 0;
+    }
+    #feedback {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Guess the Soccer Player!</h1>
+  <div id="hints"></div>
+  <input type="text" id="guess" placeholder="Your guess here">
+  <button id="submit">Submit Guess</button>
+  <button id="hint-btn">Show Next Hint</button>
+  <button id="next-btn">Next Player</button>
+  <div id="feedback"></div>
+  <script src="script.js"></script>
+</body>
+</html>

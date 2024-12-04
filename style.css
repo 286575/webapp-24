@@ -1,0 +1,77 @@
+/*body{
+    text-align: center;
+    margin-top:80px;
+}
+button{
+    border-radius:5px;
+    background-color:black;
+    color:white;
+    font-family:fantasy;
+    font:papyrus;
+    text-align:center;
+    display:inline-block;
+    margin: 10px 10px;
+    padding:26px 50px;
+    font-size:35px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: white;
+    color: black;
+    border: solid black 4px;
+    font-size:45px;
+}
+.button2:hover{
+    background-color: white;
+    color: black;
+    border: solid black 4px;
+    font-size:45px;
+}
+*/
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  #hints {
+    margin: 20px;
+  }
+  .hint {
+    display: none;
+    margin: 10px 0;
+  }
+  .visible {
+    display: block;
+  }
+  #feedback {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  #guess{
+    font-size:30px;
+    border-radius: 15px;
+    border: solid black 4px;
+  }
+button{
+    margin:20px 0;
+    width:100%;
+    max-width:300px;
+    font-size:24px;
+    background:black;
+    color:white;
+    font-family:fantasy;
+    font:papyrus;
+    border-radius:20px;
+    transition-duration:0.4s;
+}
+#submit:hover{
+    background:white;
+    color:black;
+    font-size:30px;
+}
+#hint-btn:hover{
+    background:white;
+    color:black;
+    font-size:30px;
+}
