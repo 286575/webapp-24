@@ -75,3 +75,6 @@ button{
     color:black;
     font-size:30px;
 }
+.hint {
+    display: none;
+}
